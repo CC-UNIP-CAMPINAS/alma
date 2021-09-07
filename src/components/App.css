@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.App {
+    background-color: #c0db9f;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
