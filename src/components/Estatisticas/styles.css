@@ -1,0 +1,22 @@
+.estatistica {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px;
+    color: #fff;
+
+
+}
+
+.conteinermapa {
+    display: flex;
+
+}
+
+.conteinermapa img {
+    height: 390px
+}
+.conteinermapa .fonte {
+    text-align: center;
+}

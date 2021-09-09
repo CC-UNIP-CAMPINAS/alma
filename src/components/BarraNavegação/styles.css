@@ -20,6 +20,10 @@
     align-items: center;
 }
 
+.conteinerlogo h1{
+    font-weight: 400;
+}
+
 .conteinerbotoes {
     flex: 1;
     display: flex;
@@ -29,3 +33,4 @@
 .conteinerbotoes button {
     margin-right: 30px;
 }
+
