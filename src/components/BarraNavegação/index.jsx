@@ -18,10 +18,10 @@ export function BarraNavegacao() {
                 <Link to="/estatistica">
                     <Botao texto="Estatísticas" classeDoBotao="botao" icon="whh:statistics"></Botao>
                 </Link>
-                <Link to="/estatistica">
+                <Link to="/problematica">
                     <Botao texto="Problemáticas" classeDoBotao="botao" icon="ic:baseline-sync-problem"></Botao>
                 </Link>
-                <Link to="/estatistica">
+                <Link to="/quemsomos">
                     <Botao texto="Quem Somos" classeDoBotao="botao" icon="fluent:people-team-16-filled"></Botao>
                 </Link>
             </div>
