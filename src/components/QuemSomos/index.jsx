@@ -25,7 +25,7 @@ export function QuemSomos() {
             amada.
           </p>
           <p>
-            Lucas, o integrante mais pomposo da equipe, tem como sua missão
+            Lucas, o integrante mais pimposo da equipe, tem como sua missão
             pessoal abraçar árvores em todos os países que visitar. Desejamos
             boa sorte à ele.
           </p>
