@@ -2,16 +2,16 @@
     display: flex;
     flex: 1;
     align-items: center;
+    padding: 0 50px;
 }
 
 .quadro {
-    width: 800px;
+    margin-right: 100px;
     color: #095d40;
     font-size: 23px;
 }
 
 .texto {
-    padding: 50px;
     text-align: justify;
 }
 
