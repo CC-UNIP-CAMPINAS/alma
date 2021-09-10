@@ -6,7 +6,13 @@ import mapa from "../../assets/img/mapa.png";
 export function Estatistica() {
   return (
     <div className="estatistica">
-      <div className="topicos">
+      <div className="div-iframe"
+        dangerouslySetInnerHTML={{
+          __html: "<iframe src='http://terrabrasilis.dpi.inpe.br/app/map/deforestation?hl=pt-br' />",
+        }}
+      ></div>
+
+      {/* <div className="topicos">
         <ul className="lista-topicos">
           <li>De acordo com a pesquisa, o desmatamento acumulado nos últimos 11
           meses, de agosto de 2020 até junho de 2021, chegou a 8.381 km²;</li>
@@ -24,7 +30,7 @@ export function Estatistica() {
           <img src={mapa} alt="mapa"></img>
           <p className="fonte">Fonte: TerraBrasilis</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

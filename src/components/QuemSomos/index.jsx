@@ -8,6 +8,7 @@ export function QuemSomos() {
       <div className="quadro">
         <ul className="texto">
           <p>
+            
             A ALMA é uma organização não governamental e fictícia que tem como
             missão concientizar a população a cerca do desmatamento que ocorre
             em larga escala no Brasil.
@@ -15,13 +16,13 @@ export function QuemSomos() {
           <p>
             A organização surge em meados de setembro de 2021 devido à uma ideia
             brilhante da fundadora. Assim como a ideia, a realização de todo o
-            projeto foi feito pela mesma. Pesquisas, programação e designer tem
+            projeto foi feito pela mesma. Pesquisas, programação e designer têm
             sua assinatura.
           </p>
           <p>
             A equipe também é composta por mais quatro integrantes, os quais
-            creem que a natureza é nosso lar e, portanto, deve ser cuidado e
-            amado.
+            creem que a natureza é nosso lar e, portanto, deve ser cuidada e
+            amada.
           </p>
           <p>
             Lucas, o integrante mais pomposo da equipe, tem como sua missão
