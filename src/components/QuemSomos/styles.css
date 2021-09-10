@@ -1,27 +1,26 @@
 .quemsomos {
-  display: flex;
-  flex: 1;
-  align-items: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
 }
 
 .quadro {
-  width: 800px;
-  color: #095d40;
-  font-size: 23px;
+    width: 800px;
+    color: #095d40;
+    font-size: 23px;
 }
 
 .texto {
-  padding: 50px;
-  text-align: justify;
+    padding: 50px;
+    text-align: justify;
 }
 
 .texto p:not(:first-child) {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .conteinerimagem {
-  display: flex;
-  flex: 1;
-  justify-content: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
-

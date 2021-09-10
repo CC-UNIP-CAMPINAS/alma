@@ -1,14 +1,13 @@
 .estatistica {
-  flex: 1;
-  display: flex;
+    flex: 1;
+    display: flex;
 }
 
-
 .div-iframe {
-display: flex;
-flex: 1;
+    display: flex;
+    flex: 1;
 }
 
 .div-iframe iframe {
-  flex: 1;
+    flex: 1;
 }
