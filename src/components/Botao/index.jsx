@@ -4,7 +4,7 @@ import { InlineIcon } from "@iconify/react";
 
 export default function Botao(props) {
     return (
-        <button className={props.classeDoBotao}>
+        <button className={props.classeDoBotao} id={props.id}>
             <InlineIcon icon={props.icon} />
             {props.texto}
         </button>

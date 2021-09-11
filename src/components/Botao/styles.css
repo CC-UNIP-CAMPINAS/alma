@@ -17,9 +17,13 @@
 }
 
 .botao:hover {
-    background-color: #029441;
+    background-color: #06412c;
 }
 
 .botao:active {
-    background-color: #04bd54;
+    background-color: #095d40;
+}
+
+.botao#active {
+    background-color: #031f15;
 }
