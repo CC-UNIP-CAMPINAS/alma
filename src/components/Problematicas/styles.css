@@ -1,0 +1,17 @@
+.problematicas {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  color: #095d40;
+}
+
+.texto {
+  padding: 40px;
+  text-align: justify;
+  font-size: 20px;
+  
+}
+
+.texto p:not(:first-child) {
+    margin-top: 5px;
+}

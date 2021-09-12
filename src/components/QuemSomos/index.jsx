@@ -6,7 +6,7 @@ export function QuemSomos() {
     return (
         <div className="quemsomos">
             <div className="quadro">
-                <ul className="texto">
+            <ul className="texto">
                     <p>
                         A ALMA é uma organização não governamental e fictícia que tem como missão concientizar a
                         população a cerca do desmatamento que ocorre em larga escala no Brasil.

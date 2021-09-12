@@ -8,12 +8,12 @@ export function BarraNavegacao() {
     const [botaoAtivo, setBotaoAtivo] = React.useState({
         home: "active",
         estatistica: "",
-        problematica: "",
+        problematicas: "",
         quemsomos: "",
     });
 
     function setaBotaoPrincipal(botaoEscolhido) {
-        let estadoInicial = { home: "", estatistica: "", problematica: "", quemsomos: "" };
+        let estadoInicial = { home: "", estatistica: "", problematicas: "", quemsomos: "" };
         switch (botaoEscolhido) {
             case "home":
                 estadoInicial.home = "active";
@@ -22,7 +22,7 @@ export function BarraNavegacao() {
                 estadoInicial.estatistica = "active";
                 break;
             case "problematica":
-                estadoInicial.problematica = "active";
+                estadoInicial.problematicas = "active";
                 break;
             case "quemsomos":
                 estadoInicial.quemsomos = "active";
@@ -52,9 +52,9 @@ export function BarraNavegacao() {
                         icon="whh:statistics"
                     ></Botao>
                 </Link>
-                <Link to="/problematica" onClick={() => setaBotaoPrincipal("problematica")}>
+                <Link to="/problematicas" onClick={() => setaBotaoPrincipal("problematica")}>
                     <Botao
-                        id={botaoAtivo.problematica}
+                        id={botaoAtivo.problematicas}
                         texto="Problemáticas"
                         classeDoBotao="botao"
                         icon="ic:baseline-sync-problem"
