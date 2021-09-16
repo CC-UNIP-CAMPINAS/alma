@@ -1,17 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .App {
-    height: 100vh;
-    background-color: #c0db9f;
-    display: flex;
-    flex-direction: column;
+  height: 100vh;
+  background-color: #c0db9f;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
-    text-indent: 2em;
+  text-indent: 2em;
 }

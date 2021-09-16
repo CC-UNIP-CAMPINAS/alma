@@ -7,6 +7,7 @@ import { Estatistica } from "./Estatisticas";
 import { Rodape } from "./Rodape/index";
 import { Problematicas } from "./Problematicas";
 import { QuemSomos } from "./QuemSomos";
+import { Iso14000} from "./Iso14000"
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route exact path="/" component={PaginaInicial} />
                     <Route exact path="/estatistica" component={Estatistica} />
                     <Route exact path="/problematicas" component={Problematicas} />
+                    <Route exact path="/iso14000" component={Iso14000} />
                     <Route exact path="/quemsomos" component={QuemSomos} />
                 </Switch>
                 <Rodape></Rodape>

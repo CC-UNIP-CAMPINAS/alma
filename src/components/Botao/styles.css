@@ -1,29 +1,29 @@
 .botao {
-    background-color: #095d40;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    font-size: 25px;
-    padding: 15px;
-    outline: none;
+  background-color: #095d40;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  outline: none;
 
-    transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 .botao svg {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .botao:hover {
-    background-color: #06412c;
+  background-color: #06412c;
 }
 
 .botao:active {
-    background-color: #095d40;
+  background-color: #095d40;
 }
 
 .botao#active {
-    background-color: #031f15;
+  background-color: #031f15;
 }

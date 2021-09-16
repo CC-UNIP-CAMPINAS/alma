@@ -7,13 +7,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
 export default function PaginaInicial() {
-    return (
-        <div className="containerimagens">
-            <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
-                <img src={carroselImg1} alt="1"></img>
-                <img src={carroselImg2} alt="2"></img>
-                <img src={carroselImg3} alt="3"></img>
-            </Carousel>{" "}
-        </div>
-    );
+  return (
+    <div className="containerimagens">
+      <Carousel showThumbs={false} autoPlay={true} infiniteLoop={true}>
+        <img src={carroselImg1} alt="1"></img>
+        <img src={carroselImg2} alt="2"></img>
+        <img src={carroselImg3} alt="3"></img>
+      </Carousel>{" "}
+    </div>
+  );
 }
