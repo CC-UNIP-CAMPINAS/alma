@@ -18,6 +18,7 @@ export function BarraNavegacao() {
       home: "",
       estatistica: "",
       problematicas: "",
+      iso14000: "",
       quemsomos: "",
     };
     switch (botaoEscolhido) {
@@ -32,6 +33,9 @@ export function BarraNavegacao() {
         break;
       case "iso14000":
         estadoInicial.iso14000 = "active";
+        break;
+      case "quemsomos":
+        estadoInicial.quemsomos = "active";
         break;
       default:
         estadoInicial = { ...botaoAtivo };
